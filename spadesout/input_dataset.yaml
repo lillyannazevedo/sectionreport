@@ -1,0 +1,7 @@
+- "left reads":
+  - "/Users/lillyazevedo/Desktop/Sectionreport/Lillyanna_1.fastq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/Users/lillyazevedo/Desktop/Sectionreport/Lillyanna_2.fastq.gz"
+  "type": "paired-end"

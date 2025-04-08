@@ -1,0 +1,17 @@
+set -e
+true
+true
+/Users/lillyazevedo/miniconda3/envs/spades410/bin/spades-hammer /Users/lillyazevedo/Desktop/Sectionreport/spadesout/corrected/configs/config.info
+/Users/lillyazevedo/miniconda3/envs/spades410/bin/python3 /Users/lillyazevedo/miniconda3/envs/spades410/share/spades/spades_pipeline/scripts/compress_all.py --input_file /Users/lillyazevedo/Desktop/Sectionreport/spadesout/corrected/corrected.yaml --ext_python_modules_home /Users/lillyazevedo/miniconda3/envs/spades410/share/spades --max_threads 16 --output_dir /Users/lillyazevedo/Desktop/Sectionreport/spadesout/corrected --gzip_output
+true
+true
+/Users/lillyazevedo/miniconda3/envs/spades410/bin/spades-core /Users/lillyazevedo/Desktop/Sectionreport/spadesout/K21/configs/config.info
+/Users/lillyazevedo/miniconda3/envs/spades410/bin/spades-core /Users/lillyazevedo/Desktop/Sectionreport/spadesout/K33/configs/config.info
+/Users/lillyazevedo/miniconda3/envs/spades410/bin/spades-core /Users/lillyazevedo/Desktop/Sectionreport/spadesout/K55/configs/config.info
+/Users/lillyazevedo/miniconda3/envs/spades410/bin/spades-core /Users/lillyazevedo/Desktop/Sectionreport/spadesout/K77/configs/config.info
+/Users/lillyazevedo/miniconda3/envs/spades410/bin/spades-core /Users/lillyazevedo/Desktop/Sectionreport/spadesout/K99/configs/config.info
+/Users/lillyazevedo/miniconda3/envs/spades410/bin/spades-core /Users/lillyazevedo/Desktop/Sectionreport/spadesout/K127/configs/config.info
+/Users/lillyazevedo/miniconda3/envs/spades410/bin/python3 /Users/lillyazevedo/miniconda3/envs/spades410/share/spades/spades_pipeline/scripts/copy_files.py /Users/lillyazevedo/Desktop/Sectionreport/spadesout/K127/before_rr.fasta /Users/lillyazevedo/Desktop/Sectionreport/spadesout/before_rr.fasta /Users/lillyazevedo/Desktop/Sectionreport/spadesout/K127/assembly_graph_after_simplification.gfa /Users/lillyazevedo/Desktop/Sectionreport/spadesout/assembly_graph_after_simplification.gfa /Users/lillyazevedo/Desktop/Sectionreport/spadesout/K127/final_contigs.fasta /Users/lillyazevedo/Desktop/Sectionreport/spadesout/contigs.fasta /Users/lillyazevedo/Desktop/Sectionreport/spadesout/K127/first_pe_contigs.fasta /Users/lillyazevedo/Desktop/Sectionreport/spadesout/first_pe_contigs.fasta /Users/lillyazevedo/Desktop/Sectionreport/spadesout/K127/strain_graph.gfa /Users/lillyazevedo/Desktop/Sectionreport/spadesout/strain_graph.gfa /Users/lillyazevedo/Desktop/Sectionreport/spadesout/K127/scaffolds.fasta /Users/lillyazevedo/Desktop/Sectionreport/spadesout/scaffolds.fasta /Users/lillyazevedo/Desktop/Sectionreport/spadesout/K127/scaffolds.paths /Users/lillyazevedo/Desktop/Sectionreport/spadesout/scaffolds.paths /Users/lillyazevedo/Desktop/Sectionreport/spadesout/K127/assembly_graph_with_scaffolds.gfa /Users/lillyazevedo/Desktop/Sectionreport/spadesout/assembly_graph_with_scaffolds.gfa /Users/lillyazevedo/Desktop/Sectionreport/spadesout/K127/assembly_graph.fastg /Users/lillyazevedo/Desktop/Sectionreport/spadesout/assembly_graph.fastg /Users/lillyazevedo/Desktop/Sectionreport/spadesout/K127/final_contigs.paths /Users/lillyazevedo/Desktop/Sectionreport/spadesout/contigs.paths
+true
+/Users/lillyazevedo/miniconda3/envs/spades410/bin/python3 /Users/lillyazevedo/miniconda3/envs/spades410/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py --result_scaffolds_filename /Users/lillyazevedo/Desktop/Sectionreport/spadesout/scaffolds.fasta --misc_dir /Users/lillyazevedo/Desktop/Sectionreport/spadesout/misc --threshold_for_breaking_scaffolds 3
+true
